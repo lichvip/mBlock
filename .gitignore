@@ -2,7 +2,8 @@
 bin/
 bin-debug/
 bin-release/
-
+/resources/Arduino/
+!/resources/Arduino/libraries/makeblock/
 # Other files and folders
 .settings/
 
