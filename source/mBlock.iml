@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="bin-Release">
+    <configurations>
+      <configuration name="bin-Release" target-platform="Desktop" pure-as="true" main-class="MBlock" output-file="mBlock.swf" output-folder="$MODULE_DIR$/../out/bin-Release">
+        <dependencies>
+          <entries>
+            <entry library-name="libs" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="Flex" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false" />
+            <entry key="compiler.keep-generated-actionscript" value="false" />
+            <entry key="compiler.locale" value="zh_CN" />
+          </map>
+        </compiler-options>
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/MBlock-app.xml" package-file-name="bin-Release">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/icons" path-in-package="icons" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/assets" path-in-package="assets" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/drivers" path-in-package="drivers" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/examples" path-in-package="examples" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/ext" path-in-package="ext" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/filters" path-in-package="filters" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/firmware" path-in-package="firmware" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/locale" path-in-package="locale" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/media" path-in-package="media" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/soundbank" path-in-package="soundbank" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/tools" path-in-package="tools" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/InTheHand.Net.Personal.dll" path-in-package="InTheHand.Net.Personal.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/orion_buzzer.swf" path-in-package="orion_buzzer.swf" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/msvcp100.dll" path-in-package="msvcp100.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/libgcc_s_dw2-1.dll" path-in-package="libgcc_s_dw2-1.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/welcome.swf" path-in-package="welcome.swf" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/pthreadGC2.dll" path-in-package="pthreadGC2.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/msvcr100_clr0400.dll" path-in-package="msvcr100_clr0400.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/libstdc++-6.dll" path-in-package="libstdc++-6.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/msvcr100.dll" path-in-package="msvcr100.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/../resources/Arduino" path-in-package="Arduino" />
+          </files-to-package>
+        </packaging-air-desktop>
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="bin-Debug" target-platform="Desktop" pure-as="true" main-class="MBlock" output-file="mBlock.swf" output-folder="$MODULE_DIR$/../out/bin-Debug">
+        <dependencies>
+          <entries>
+            <entry library-name="libs" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="Flex" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.locale" value="zh_CN" />
+          </map>
+        </compiler-options>
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/MBlock-app.xml" package-file-name="bin-Debug">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/icons" path-in-package="icons" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/assets" path-in-package="assets" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/drivers" path-in-package="drivers" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/examples" path-in-package="examples" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/ext" path-in-package="ext" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/filters" path-in-package="filters" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/firmware" path-in-package="firmware" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/locale" path-in-package="locale" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/media" path-in-package="media" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/soundbank" path-in-package="soundbank" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/tools" path-in-package="tools" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/InTheHand.Net.Personal.dll" path-in-package="InTheHand.Net.Personal.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/orion_buzzer.swf" path-in-package="orion_buzzer.swf" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/msvcp100.dll" path-in-package="msvcp100.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/libgcc_s_dw2-1.dll" path-in-package="libgcc_s_dw2-1.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/welcome.swf" path-in-package="welcome.swf" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/pthreadGC2.dll" path-in-package="pthreadGC2.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/msvcr100_clr0400.dll" path-in-package="msvcr100_clr0400.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/libstdc++-6.dll" path-in-package="libstdc++-6.dll" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/msvcr100.dll" path-in-package="msvcr100.dll" />
+          </files-to-package>
+        </packaging-air-desktop>
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Flex" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="libs" level="project" />
+  </component>
+</module>
